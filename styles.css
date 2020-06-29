@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(134, 133, 226);
+}
+
+.bola{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 50%;
+    display: table;
+    padding: 5%;
+    margin: auto;
+}
+
+.mensaje{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(32, 32, 32);
+    border: solid;
+    border-color: azure;
+    border-width: 4px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.resp{
+    font-size: 24px;
+    color: dodgerblue;
+    width: 0; 
+    height: 0; 
+    border-top: 200px solid #0011ff;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid transparent; 
+    border-right: 100px solid transparent; 
+    display: inline-block;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+#resp{
+    width: 200px;
+    height: 200px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#preguntar{
+    background-color: firebrick;
+    border-radius: 15px;
+    font-size: 18px;
+    color: ghostwhite;
+    padding: 15px;
+}
+
+#preguntar:hover {
+    background-color: brown;
+    color: darkgray;
+}
+
+.contenedor {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: #0011ff;
+    letter-spacing: 6px;
+}
